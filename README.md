@@ -42,7 +42,7 @@ Project Structure
 week1-retail-analysis/
 │
 ├── data/
-│   └── retail.csv
+│   └── DSA_2050_Week1_Retail_Data.csv
 │
 ├── notebook/
 │   └── week1_analysis.ipynb
@@ -117,22 +117,20 @@ The notebook loads the dataset using a relative file path:
 df = pd.read_csv("../data/DSA_2050_Week1_Retail_Data.csv")
 
 Required Python dependencies are listed in:
+
 requirements.txt
-
-To reproduce the analysis:
-
-1. Clone the repository
-git clone <https://github.com/susannduta/DSA2050-Week1-673011.git>
-2. Navigate to the project directory
-cd week1-retail-analysis
-3. Create a virtual environment
+1. Clone the Repository
+git clone https://github.com/susannduta/DSA2050-Week1-673011.git
+2. Navigate to the Project Directory
+cd DSA2050-Week1-673011
+3. Create a Virtual Environment
 python -m venv .venv
-4. Activate the environment
+4. Activate the Virtual Environment
 
 Windows:
 
 .venv\Scripts\activate
-5. Install the required dependencies
+5. Install the Required Dependencies
 pip install -r requirements.txt
 6. Launch Jupyter Notebook
 jupyter notebook
