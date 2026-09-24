@@ -1,9 +1,10 @@
+```
 Retail Sales Performance Analysis
 Project Overview
 
 This project analyses a retail transaction dataset to assess sales performance across regions and product categories. The analysis applies basic data science methods to transform transaction-level data into meaningful business performance indicators and visual insights.
 
-The project focuses on establishing a reproducible analytical workflow, beginning with dataset inspection and problem framing, followed by KPI calculation, visualization, interpretation, and development of a concise decision brief.
+The project follows a reproducible analytical workflow, beginning with problem framing and dataset inspection, followed by KPI calculation, visualization, interpretation, and development of a concise decision brief.
 
 Business Objective
 
@@ -53,11 +54,12 @@ week1-retail-analysis/
 │
 └── requirements.txt
 Directory Description
-data/ — Contains the source retail dataset.
-notebook/ — Contains the Jupyter Notebook with the complete analysis.
-outputs/ — Contains generated analytical outputs and the decision brief.
-README.md — Provides documentation of the project, methodology, findings, and reproducibility information.
-requirements.txt — Specifies the Python dependencies required to reproduce the analysis.
+Directory/File	Description
+data/	Contains the source retail dataset.
+notebook/	Contains the Jupyter Notebook with the complete analysis.
+outputs/	Contains generated analytical outputs and the decision brief.
+README.md	Provides project documentation, methodology, findings, and reproducibility information.
+requirements.txt	Specifies the Python dependencies required to reproduce the analysis.
 Key Performance Indicators
 
 Three KPIs were selected to measure overall sales performance.
@@ -80,7 +82,7 @@ Two visualizations are used to examine differences in revenue contribution.
 
 A bar chart compares total revenue across the four regions represented in the dataset.
 
-The analysis indicates that Kisumu recorded the highest revenue contribution at approximately KES 880,000, followed by Mombasa at approximately KES 800,000. Nakuru and Nairobi recorded approximately KES 780,000 and KES 760,000, respectively.
+Kisumu recorded the highest revenue contribution at approximately KES 880,000, followed by Mombasa at approximately KES 800,000. Nakuru and Nairobi recorded approximately KES 780,000 and KES 760,000, respectively.
 
 2. Total Revenue by Product Category
 
@@ -116,9 +118,8 @@ The notebook loads the dataset using a relative file path:
 
 df = pd.read_csv("../data/DSA_2050_Week1_Retail_Data.csv")
 
-Required Python dependencies are listed in:
+Required Python dependencies are listed in requirements.txt.
 
-requirements.txt
 1. Clone the Repository
 git clone https://github.com/susannduta/DSA2050-Week1-673011.git
 2. Navigate to the Project Directory
@@ -166,3 +167,4 @@ Author
 Name: Susan Nduta
 Student ID: 673011
 Course: DSA 2050 – Data Science Methodology
+```
